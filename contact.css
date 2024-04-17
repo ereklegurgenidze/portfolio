@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #000249;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+    margin-left: 322px;
+    width: 796px;
+    height: 26px;
+}
+
+.nav1 a{
+    color: #FAF9F0;
+    font-family: "Fira Code", monospace;
+    font-weight: 700;
+    size: 20px;
+}
+
+
+.nav2 a{
+    color: #FAF9F0;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    size: 20px;
+}
+
+.nav3 a{
+    color: #FAF9F0;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    size: 20px;
+}
+
+.nav4 a{
+    color: #FAF9F0;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    size: 20px;
+}
+
+.nav5 a{
+    color: #F6490D;
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    size: 20px;
+}
+
+.name {
+    margin-top: 120px;
+    margin-left: 322px; 
+}
+
+.name input{
+    border: 1px solid #FAF9F0;
+    width: 796px;
+    height: 52px;
+    border-radius: 4px;
+}
+
+.name :placeholder-shown{
+    font-family: "Fira Code" , sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 7px 731px 8px 12px
+}
+
+::placeholder{
+    color:#FAF9F0;
+}
+
+input[type=text]{
+    font-family: "Fira Code" , sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 12px; 
+    color:  #FAF9F0;
+}
+
+.email input{
+    margin-top: 24px;
+    margin-left: 322px;
+    border: 1px solid #FAF9F0;
+    border-radius: 4px;
+    width: 796px;
+    height: 52px;
+}
+
+.masages input{
+    margin-top: 24px;
+    margin-left: 322px;
+    border: 1px solid #FAF9F0;
+    border-radius: 4px;
+    width: 796px;
+    height: 125px;
+}
+
+
+.masages :placeholder-shown{
+    font-family: "Fira Code" , sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 7px 691px 81px 12px;
+}
+
+
+.media{
+    margin-top: 52px;
+    margin-left: 322px;
+    width: 226px;
+    display: flex;
+    gap: 22.29px;
+}
+
+.soc-sub{
+    display: flex;
+}
+
+.submit button{
+    border: 2px solid #1DCED8;
+    width: 196px;
+    height: 64px;
+    margin-top: 40px;
+    margin-left: 374px;
+    border-radius: 4px;
+} 
+
+.submit a{ 
+    font-family: "Fira Code" , sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1DCED8;
+} 
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 392.33px;
+    margin-top: 200px;
+    margin-left: 524px;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 17.11;
+    color: #FBE8D3;
+    margin-bottom: 32px;
+}
+
+button::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, tranperent, red, tranperent);
+    transform: translateX(-100%);
+    transition: 0.6s;
+    position: absolute;
+}
+
+button:hover{
+    background: transparent;
+    box-shadow: 0 0 20px 5px red;
+}
